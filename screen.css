@@ -28,11 +28,6 @@ label {
     display: inline;
 }
 
-/* add scroll */
-.wrapper {
-  overflow:scroll
-}
-
 /* less than 480px Break Point 1: very smol screens uwu */
 @media screen and (max-width: 479px) {
     body {
