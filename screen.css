@@ -1,0 +1,239 @@
+
+html {
+    font-family: Roboto, sans-serif;
+    background-color: #e6e6fa;
+}
+
+footer {
+    text-align: center;
+    background-color: #e6e6fa;
+    padding-bottom: 10px;
+}
+
+section {
+    padding-top:0px;
+    padding-bottom: 0px;
+    background-color: #faf0e6;
+    text-align: center;
+}
+
+div {
+    display: block;
+    
+  
+}
+
+
+label {
+    display: inline;
+}
+
+/* add scroll */
+.wrapper {
+  overflow:scroll
+}
+
+/* less than 480px Break Point 1: very smol screens uwu */
+@media screen and (max-width: 479px) {
+    body {
+        font-size: 0.833em; 
+        line-height: 1em;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    fieldset {
+        padding: 25px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  border-color: #03186E;
+    }
+
+    h1 { 
+        font-size: 1.44em; 
+        line-height: 1.728em;
+    }
+
+    h2 { 
+        font-size: 1.2em; 
+        line-height: 1.44em;
+    }
+
+    h3 { 
+        font-size: 1em; 
+        line-height: 1.2em;
+    }
+
+    p {
+        padding-top: 0.0835em;
+        padding-bottom: 0.0835em;
+    }   
+}
+
+/* 480px Break Point 2: Extra Small Devices, Phones */
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 1em; 
+        line-height: 1.2em;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    fieldset {
+       padding: 25px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  border-color: #03186E;
+    }
+
+    h1 {
+        font-size: 1.728em; 
+        line-height: 2.074em;
+    }
+
+    h2 {
+        font-size: 1.44em; 
+        line-height: 1.728em;
+    }
+
+    h3 { 
+        font-size: 1.2em; 
+        line-height: 1.44em;
+    }
+
+    p {
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+    }   
+}
+
+/* 768px Break Point 3: Small Devices, Tablets */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.2em; 
+        line-height: 1.44em; 
+    }
+
+    section {
+        text-align: left;
+    }
+
+    fieldset {
+       padding: 25px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  border-color: #03186E;
+    }
+
+    h1 {
+        font-size: 2.074em;
+        line-height: 2.488em;
+    }
+
+    h2 {
+        font-size: 1.728em; 
+        line-height: 2.074em;
+    }
+
+    h3 {
+        font-size: 1.44em; 
+        line-height: 1.728em;
+    }
+
+    p {
+        padding-top: 0.12em;
+        padding-bottom: 0.12em;
+    }
+}
+
+/* 992px Break Point 4: Medium computers */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.44em; 
+        line-height: 1.728em;
+    }
+
+    section {
+        text-align: left;
+    }
+
+    fieldset {
+       padding: 25px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  border-color: #03186E;
+    }
+
+    h1 {
+        font-size: 2.488em;
+        line-height: 2.986em;
+    }
+
+    h2 {
+        font-size: 2.074em;
+        line-height: 2.488em;
+    }
+
+    h3 {
+        font-size: 1.728em; 
+        line-height: 2.074em;
+    }
+
+    p {
+        padding-top: 0.144em;
+        padding-bottom: 0.144em;
+    }
+}
+
+/* 992px Break Point 5: Large computers, TVs */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.728em; 
+        line-height: 2.074em; 
+    }
+
+    section {
+        text-align: left;
+    }
+
+    fieldset {
+        padding: 25px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  border-color: #03186E;
+    }
+
+    h1 {
+        font-size: 3.583em;
+        line-height: 2.986em;
+    }
+
+    h2 {
+        font-size: 2.488em;
+        line-height: 2.986em;
+    }
+
+    h3 {
+        font-size: 2.074em;
+        line-height: 2.488em;
+    }
+
+    p {
+        padding-top: 0.173em;
+        padding-bottom: 0.173em;
+    }
+}
